@@ -1,0 +1,120 @@
+
+
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+   
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-3 img{
+    width:100%;
+}
+    heading{
+    color: white;
+}
+
+.header{
+    border: 2px solid black;
+    text-align: right;
+    color: orange;
+    background-color: black;
+    height: 2vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+   text-shadow: 1px 1px 1px black;
+   text-align: left;
+    
+  .htext{
+    margin-left: 2%;
+  }
+
+   
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+.quote{
+   
+    border: 2px solid orange;
+    background-color: rgba(128, 128, 128, 0.441);
+    text-align: center;
+    color: orange;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Cormorant', serif;
+    text-decoration: solid;
+    font-style: italic;
+    padding-top: 2%;
+    
+}
+.note{
+    color: rgb(255, 122, 122);
+    font-size: smaller;
+}
+.price {
+    font-size: larger;
+}
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.col-3:hover{
+    transform: translateY(-15px);
+}
+
+
+input{
+    
+    float: right;
+    background-color: beige;
+    color: orange;
+    border-radius: 15%;
+
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    
+      border-radius: 15%;
+    float: right;
+}
+
+
+
+/* Additional CSS for the button if needed */
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap; /* Allows the results to wrap to the next row if necessary */
+}
+
+.col-3 {
+    flex: 1; /* Makes each result take up an equal amount of space in the row */
+    margin: 10px; /* Adds spacing between results */
+}
